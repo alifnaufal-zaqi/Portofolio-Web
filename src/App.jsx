@@ -23,7 +23,7 @@ const App = () => {
       >
         <Navbar />
       </header>
-      <main className="px-32 py-8">
+      <main>
         <Router />
       </main>
     </>

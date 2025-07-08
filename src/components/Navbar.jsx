@@ -21,6 +21,11 @@ const Navbar = () => {
         </li>
         <li className="cursor-pointer rounded-full p-2 hover:bg-primary hover:text-white transition-all ease-in-out duration-150">
           <AnimatedContent>
+            <a href="">Skill</a>
+          </AnimatedContent>
+        </li>
+        <li className="cursor-pointer rounded-full p-2 hover:bg-primary hover:text-white transition-all ease-in-out duration-150">
+          <AnimatedContent>
             <a href="">Projects</a>
           </AnimatedContent>
         </li>
@@ -58,6 +63,13 @@ const Navbar = () => {
             onClick={() => setIsOpen(false)}
           >
             Tentang Saya
+          </a>
+          <a
+            href=""
+            className="text-lg hover:text-primary"
+            onClick={() => setIsOpen(false)}
+          >
+            Skill
           </a>
           <a
             href=""
