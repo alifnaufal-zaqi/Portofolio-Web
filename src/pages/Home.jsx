@@ -154,7 +154,7 @@ const Home = () => {
                 <div>
                   <img
                     src={project.image}
-                    className="w-[104] object-cover rounded-tl-md rounded-tr-md"
+                    className="w-full aspect-auto rounded-tl-md rounded-tr-md"
                     alt=""
                   />
                 </div>
