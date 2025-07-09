@@ -189,7 +189,7 @@ const Home = () => {
         </p>
         <div className="w-full flex justify-center">
           <Button className={"mx-auto font-bold"}>
-            <Link to={"/sertifications/#sertifList"}>Lihat sertifikasi</Link>
+            <Link to={"/sertifications"}>Lihat sertifikasi</Link>
           </Button>
         </div>
       </section>
