@@ -22,13 +22,21 @@ const Sertification = () => {
               <img src={s.image} alt={s.title} className="w-3xl" />
               <div className="p-4 flex flex-col justify-between flex-1">
                 <h1 className="text-xl font-semibold mb-2">{s.title}</h1>
-                <a
-                  href={s.file}
-                  download={s.title}
-                  className="bg-primary p-2 text-center rounded-md font-bold text-white"
-                >
-                  Lihat Detail
-                </a>
+                <div className="flex md:flex-row gap-2 flex-col">
+                  <a
+                    href={s.file}
+                    download={s.title}
+                    className="bg-primary w-full p-2 text-center rounded-md font-bold text-white"
+                  >
+                    Lihat Detail
+                  </a>
+                  <a
+                    href={s.source}
+                    className="bg-slate-300 w-full p-2 text-center rounded-md font-bold"
+                  >
+                    Sumber
+                  </a>
+                </div>
               </div>
             </Card>
           </AnimatedContent>

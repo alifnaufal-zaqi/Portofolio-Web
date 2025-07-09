@@ -3,7 +3,7 @@ const projects = [
     id: 1,
     title: "Tanami Landing Page",
     description:
-      "Pada projek ini saya buat untuk keperluan tugas technopreneurship yaitu membuat bisnis pot organik yang terbuat dari sebuk kayu, ampas kopi, dan ampas teh. Pada prjeck ini saya menggunakan teknologi seperti ReactJS dan TailwindCSS untuk styling nya untuk mendevelopt website landing page ini",
+      "Proyek ini saya buat sebagai tugas mata kuliah Technopreneurship, dengan ide bisnis pot organik yang terbuat dari serbuk kayu, ampas kopi, dan ampas teh. Saya menggunakan ReactJS dan TailwindCSS untuk mengembangkan tampilan dari website landing page ini.",
     technology: [
       "/Techstack/HTML.png",
       "/Techstack/CSS.png",
@@ -18,7 +18,7 @@ const projects = [
     id: 2,
     title: "Open Music API",
     description:
-      "Projek ini saya buat untuk menyelesaikan submission dari platform dicoding supaya bisa lulus dari kelas Belajar Fundamental Back-End dengan Javascript dan mendapatkan sertifikat. Tetapi pada project ini belum saya lakukan deployment jadi saya akan mencantumkan link repository pada github saya",
+      "Proyek ini saya buat untuk menyelesaikan submission dari platform Dicoding pada kelas Belajar Fundamental Back-End dengan JavaScript. Proyek ini belum saya deploy, sehingga saya mencantumkan tautan ke repository GitHub saya sebagai referensi.",
     technology: [
       "/Techstack/JS.jpg",
       "/Techstack/hapi-js.png",
@@ -30,9 +30,9 @@ const projects = [
   },
   {
     id: 3,
-    title: "E-Commerce PHP Vanila",
+    title: "E-Commerce PHP Vanilla",
     description:
-      "Pada dasarnya project ini saya buat hanya untuk latihan hasil dari belajar bahasa pemrograman PHP. Fitur yang sudah berhsail saya buat adalah CRUD profucts, Authentication(Login & Register), Login Multi-user, dsb. Jadi pada project saya yang ini hanya menekankan pada hasil belajar bahasa pemrograman PHP jika tampilan UI nya yang sederhana itu karena saya bukan memfokuskan pada poin itu. Pada project ini juga saya belum melakukan deployment karena saya masih ingin menyempurnakan project ini.",
+      "Proyek ini saya buat sebagai latihan setelah mempelajari bahasa pemrograman PHP. Fitur yang berhasil saya bangun meliputi CRUD produk, autentikasi (login & register), login multi-user, dan lainnya.\n\nFokus utama proyek ini adalah pada sisi fungsional, bukan antarmuka, sehingga UI-nya masih sangat sederhana. Proyek ini belum saya deploy karena masih dalam tahap penyempurnaan.",
     technology: [
       "/Techstack/PHP.png",
       "/Techstack/HTML.png",
@@ -48,7 +48,7 @@ const projects = [
     id: 4,
     title: "React NotesApp",
     description:
-      "Projek in saya buat untuk menyelesaikan tugas submission dari kelas Belajar Fundamental Aplikasi Web dengan React pada platform dicoding sebagai syarat untuk lulus dari kelas tersebut. Projek ini juga sudah terintegrasi pada NotesAPI milik dicoding, untuk fitur yang berhasil dibangun adalah Authentication, Katalog notes, CRUD Notes, dan Archieve/Non-Archieve Notes. Pada project ini saya juga belum melakukan deployment jadi saya akan mencantumkan github repository saya.",
+      "Proyek ini saya buat untuk menyelesaikan submission pada kelas Belajar Fundamental Aplikasi Web dengan React dari platform Dicoding.\n\nAplikasi ini sudah terintegrasi dengan NotesAPI milik Dicoding, dan memiliki fitur seperti autentikasi, katalog catatan, CRUD catatan, serta pengarsipan dan pembatalan arsip.\n\nProyek ini belum saya deploy, sehingga saya mencantumkan tautan repository GitHub sebagai referensi.",
     technology: [
       "/Techstack/HTML.png",
       "/Techstack/CSS.png",

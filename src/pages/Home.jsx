@@ -21,11 +21,12 @@ const Home = () => {
 
     const { name, email, message } = userInput;
     if (!name || !email || !message) {
-      alert("Gagal Mengirim Pesan Inputan Masih Ada Yang Kosong");
+      alert("Gagal mengirim pesan. Mohon lengkapi semua kolom.");
       return;
     }
 
-    const text = `Hallo saya ${name} (%0AEmail: ${email}) ingin menyampaikan pesan: %0A%0A${message}`;
+    const text = `Hallo saya ${name}
+                  Email: ${email}, ingin menyampaikan pesan: ${message}`;
     const phoneNumber = "6285156511689";
 
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
@@ -60,7 +61,7 @@ const Home = () => {
           <div>
             <img
               src="/ALIF-PNG.jpg"
-              alt=""
+              alt="Photo-Alif"
               className="w-48 md:w-72 aspect-square object-cover object-top rounded-full"
             />
           </div>
@@ -77,14 +78,14 @@ const Home = () => {
               Tentang Saya
             </h1>
             <p>
-              Saya adalah mahasiswa semester 4 di Kampus Institut Widya Pratama
-              Jurusan Informatika. Saya memiliki minat besar pada web
-              development baik disisi Front End maupun Back End. Saya sekarang
-              sedang mempelajari bahasa pemrograman javascript dan ekosistem nya
-              pada platform dicoding dan saya sudah berhasil meluluskan diri
-              saya di beberapa kelas Front End Web Development dan Back End Web
-              Development dengan sertifikat yang saya dapati. Saya juga aktif
-              dalam mengikuti orgnisasi kampus seperti UKM dan kegiatan lain
+              Saya adalah mahasiswa semester 4 di Institut Widya Pratama,
+              Jurusan Informatika. Saya memiliki minat besar dalam pengembangan
+              web, baik di sisi Front End maupun Back End. Saat ini, saya sedang
+              mempelajari bahasa pemrograman JavaScript dan ekosistemnya melalui
+              platform Dicoding. Saya telah menyelesaikan beberapa kelas seperti
+              Front End Web Development dan Back End Web Development, serta
+              memperoleh sertifikat dari kelas tersebut. Saya juga aktif
+              mengikuti organisasi kampus seperti UKM, serta berbagai kegiatan
               seperti workshop dan seminar.
             </p>
           </div>
@@ -149,7 +150,7 @@ const Home = () => {
           Projects
         </h1>
         <p className="text-xl text-center mb-4">
-          Dibawah ini adalah project yang sudah saya bangun.
+          Berikut adalah beberapa proyek yang telah saya bangun.
         </p>
         <div className="p-4 bg-slate-200 rounded-md grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
           {projects.map((project) => (
@@ -189,7 +190,7 @@ const Home = () => {
           Sertifikasi
         </h1>
         <p className="text-xl text-center mb-4">
-          Dibawah ini adalah sertifikasi yang saya peroleh
+          Berikut adalah sertifikasi yang telah saya peroleh.
         </p>
         <div className="w-full flex justify-center">
           <Button className={"mx-auto font-bold"}>
