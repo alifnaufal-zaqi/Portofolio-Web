@@ -48,7 +48,7 @@ const Home = () => {
             <h1 className="text-5xl font-bold mt-4">Alif Naufal Zaqi</h1>
             <h2 className="my-4 text-xl">Junior Web Developer</h2>
             <a
-              href="/MyCV.pdf"
+              href="/myCV.pdf"
               download={"ALIF NAUFAL ZAQI-CV ATS"}
               className="inline-block p-2 text-lg font-bold text-white rounded-md bg-secondary border-2 border-secondary hover:bg-transparent hover:text-black transition"
             >
