@@ -51,42 +51,42 @@ const Navbar = () => {
       {isOpen && (
         <div className="absolute top-full left-0 w-full bg-white shadow-md flex flex-col items-center gap-4 z-40 py-6">
           <a
-            href=""
+            href="#heroSection"
             className="text-lg hover:text-primary"
             onClick={() => setIsOpen(false)}
           >
             Beranda
           </a>
           <a
-            href=""
+            href="#aboutSection"
             className="text-lg hover:text-primary"
             onClick={() => setIsOpen(false)}
           >
             Tentang Saya
           </a>
           <a
-            href=""
+            href="#skillSection"
             className="text-lg hover:text-primary"
             onClick={() => setIsOpen(false)}
           >
             Skill
           </a>
           <a
-            href=""
+            href="#projectsSection"
             className="text-lg hover:text-primary"
             onClick={() => setIsOpen(false)}
           >
             Projects
           </a>
           <a
-            href=""
+            href="#sertificationsSection"
             className="text-lg hover:text-primary"
             onClick={() => setIsOpen(false)}
           >
             Sertifikasi
           </a>
           <a
-            href=""
+            href="#contactSection"
             className="text-lg hover:text-primary"
             onClick={() => setIsOpen(false)}
           >
