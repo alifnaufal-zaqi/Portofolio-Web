@@ -11,32 +11,32 @@ const Navbar = () => {
       <ul className="hidden md:flex gap-10 text-lg">
         <li className="cursor-pointer rounded-full p-2 hover:bg-primary hover:text-white transition-all ease-in-out duration-150">
           <AnimatedContent>
-            <a href="">Beranda</a>
+            <a href="#heroSection">Beranda</a>
           </AnimatedContent>
         </li>
         <li className="cursor-pointer rounded-full p-2 hover:bg-primary hover:text-white transition-all ease-in-out duration-150">
           <AnimatedContent>
-            <a href="">Tentang Saya</a>
+            <a href="#aboutSection">Tentang Saya</a>
           </AnimatedContent>
         </li>
         <li className="cursor-pointer rounded-full p-2 hover:bg-primary hover:text-white transition-all ease-in-out duration-150">
           <AnimatedContent>
-            <a href="">Skill</a>
+            <a href="#skillSection">Skill</a>
           </AnimatedContent>
         </li>
         <li className="cursor-pointer rounded-full p-2 hover:bg-primary hover:text-white transition-all ease-in-out duration-150">
           <AnimatedContent>
-            <a href="">Projects</a>
+            <a href="#projectsSection">Projects</a>
           </AnimatedContent>
         </li>
         <li className="cursor-pointer rounded-full p-2 hover:bg-primary hover:text-white transition-all ease-in-out duration-150">
           <AnimatedContent>
-            <a href="">Sertifikasi</a>
+            <a href="#sertificationsSection">Sertifikasi</a>
           </AnimatedContent>
         </li>
         <li className="cursor-pointer rounded-full p-2 hover:bg-primary hover:text-white transition-all ease-in-out duration-150">
           <AnimatedContent>
-            <a href="">Kontak</a>
+            <a href="#contactSection">Kontak</a>
           </AnimatedContent>
         </li>
       </ul>

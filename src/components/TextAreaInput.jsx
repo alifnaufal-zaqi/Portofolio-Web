@@ -3,6 +3,7 @@ const TextAreaInput = ({
   placeholder,
   htmlFor,
   label,
+  value,
   name,
   id,
 }) => {
@@ -14,6 +15,7 @@ const TextAreaInput = ({
       <textarea
         name={name}
         id={id}
+        value={value}
         placeholder={placeholder}
         onChange={onInputChange}
         className="border border-black text-base md:text-lg p-2 rounded-md resize-none h-64"

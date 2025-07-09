@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import Router from "./Router";
+import Footer from "./components/Footer";
 
 const App = () => {
   const [isScroll, setIsScroll] = useState(false);
@@ -17,7 +18,7 @@ const App = () => {
   return (
     <>
       <header
-        className={`md:px-32 px-16 py-8 sticky top-0 bg-white z-50 ${
+        className={`md:px-32 px-8 py-8 sticky top-0 bg-white z-50 ${
           isScroll ? "shadow-md transition duration-200" : ""
         }`}
       >
@@ -26,6 +27,7 @@ const App = () => {
       <main>
         <Router />
       </main>
+      <Footer />
     </>
   );
 };
