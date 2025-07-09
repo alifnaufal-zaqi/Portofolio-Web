@@ -48,7 +48,7 @@ const Home = () => {
             <h1 className="text-5xl font-bold mt-4">Alif Naufal Zaqi</h1>
             <h2 className="my-4 text-xl">Junior Web Developer</h2>
             <a
-              href="/myCV.pdf"
+              href="/MyCV.pdf"
               download={"ALIF NAUFAL ZAQI-CV ATS"}
               className="inline-block p-2 text-lg font-bold text-white rounded-md bg-secondary border-2 border-secondary hover:bg-transparent hover:text-black transition"
             >
@@ -128,10 +128,14 @@ const Home = () => {
         </h1>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 md:gap-8">
           {skills.map((skill, index) => (
-            <AnimatedContent key={index}>
+            <AnimatedContent key={index} className="p-4">
               <div className="shadow-md h-24 rounded-md p-4 flex md:flex-row flex-col items-center gap-4 hover:shadow-lg cursor-pointer">
-                <img src={skill.logo} alt={skill.name} className="w-16" />
-                <p className="md:text-xl text-lg">{skill.name}</p>
+                <img
+                  src={skill.logo}
+                  alt={skill.name}
+                  className="w-8 md:w-16"
+                />
+                <p className="md:text-xl text-base">{skill.name}</p>
               </div>
             </AnimatedContent>
           ))}
