@@ -62,7 +62,7 @@ const Home = () => {
             <img
               src="/ALIF-PNG.jpg"
               alt="Photo-Alif"
-              className="w-48 md:w-72 aspect-square object-cover object-top rounded-full"
+              className="w-48 md:w-72 aspect-square object-cover object-top border-4 border-primary rounded-full"
             />
           </div>
         </AnimatedContent>
