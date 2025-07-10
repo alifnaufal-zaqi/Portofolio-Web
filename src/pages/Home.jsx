@@ -50,7 +50,7 @@ const Home = () => {
             <h2 className="my-4 text-xl">Junior Web Developer</h2>
             <a
               href="/myCV.pdf"
-              download={"ALIF NAUFAL ZAQI-CV ATS"}
+              download={"ALIF NAUFAL ZAQI-CV ATS.pdf"}
               className="inline-block p-2 text-lg font-bold text-white rounded-md bg-secondary border-2 border-secondary hover:bg-transparent hover:text-black transition"
             >
               Download CV
